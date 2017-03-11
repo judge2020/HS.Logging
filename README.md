@@ -4,6 +4,14 @@
 
 Easy logging for C# in the form of a NUGET package. Code credit to HDT/HearthSim.
 
+# Installation
+
+Install via [nuget](https://www.nuget.org/packages/HS.Logging/):
+
+```
+PM> Install-Package HS.Logging
+```
+
 # Usage:
 
 Choose a directory to be used for logs, and a name for your logs. Log files can end with .txt, .log, etc.

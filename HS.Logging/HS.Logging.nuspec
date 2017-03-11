@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>HS>Logging</id>
-    <version>$version$</version>
-    <title>HS>Logging</title>
-    <authors>$author$</authors>
-    <owners>$author$</owners>
+    <id>HS.Logging</id>
+    <version>1.0.0</version>
+    <title>HS.Logging</title>
+    <authors>Azeier, Judge2020</authors>
+    <owners>Judge2020</owners>
     <licenseUrl>https://github.com/judge2020/HS.Logging/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/judge2020/HS.Logging/blob/master/LICENSE</projectUrl>
-    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
+    <iconUrl>https://github.com/judge2020/HS.Logging/raw/master/rsz_58c43f9d68289.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>$description$</description>
-    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
-    <copyright>Copyright 2017</copyright>
-    <tags>Tag1 Tag2</tags>
+    <description>Easy logging.</description>
+    <releaseNotes>Initial Version</releaseNotes>
+    <copyright>Copyright Hunter 2017</copyright>
+    <tags>C#, Logging, log</tags>
   </metadata>
 </package>

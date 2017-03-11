@@ -1,4 +1,7 @@
 # HS.Logging
+
+[![NuGet](https://img.shields.io/nuget/v/HS.Logging.svg)](https://www.nuget.org/packages/HS.Logging/)
+
 Easy logging for C# in the form of a NUGET package. Code credit to HDT/HearthSim.
 
 # Usage:

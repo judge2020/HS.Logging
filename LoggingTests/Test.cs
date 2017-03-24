@@ -18,15 +18,5 @@ namespace LoggingTests
 			Log.Initialize(LogDir, LogName);
 			Assert.IsTrue(File.Exists(FQLD));
 		}
-
-		[TestMethod]
-		public void CreateLogLog()
-		{
-			var LogDir = Directory.GetCurrentDirectory();
-			var LogName = "TestLog.log";
-			var FQLD = Path.Combine(LogDir, LogName);
-			Log.Initialize(LogDir, LogName);
-			Assert.IsTrue(File.Exists(FQLD));
-		}
 	}
 }

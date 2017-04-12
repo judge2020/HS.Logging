@@ -54,9 +54,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\HS.Logging\HS.Logging.csproj">
+    <ProjectReference Include="..\HS.Logging\HSLogging.csproj">
       <Project>{033abef1-4d20-4429-a832-49e7a43a6d01}</Project>
-      <Name>HS.Logging</Name>
+      <Name>HSLogging</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

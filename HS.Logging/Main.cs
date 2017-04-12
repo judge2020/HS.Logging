@@ -5,7 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Runtime.CompilerServices;
 
-namespace HS.Logging
+namespace HSLogging
 {
 	[DebuggerStepThrough]
 	public class Log
@@ -13,10 +13,10 @@ namespace HS.Logging
 		private static readonly Queue<string> LogQueue = new Queue<string>();
 		private static bool Initialized { get; set; }
 
-		public static bool Initialize(string logDir, string logName)
+		public static void Initialize(string logDir, string logName)
 		{
 			if(Initialized)
-				return false;
+				return;
 			Trace.AutoFlush = true;
 			if(!logName.Contains('.'))
 				logName = logName + ".txt";
@@ -43,7 +43,7 @@ namespace HS.Logging
 				}
 				catch(Exception)
 				{
-					return false;
+					return;
 				}
 			}
 			try
@@ -52,12 +52,11 @@ namespace HS.Logging
 			}
 			catch(Exception)
 			{
-				return false;
+				return;
 			}
 			Initialized = true;
 			foreach(var line in LogQueue)
 				Trace.WriteLine(line);
-			return true;
 		}
 
 		public static void WriteLine(string msg, LogType type, [CallerMemberName] string memberName = "",

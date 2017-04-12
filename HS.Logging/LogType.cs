@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HS.Logging
+namespace HSLogging
 {
 	[Flags]
 	public enum LogType

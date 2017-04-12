@@ -7,8 +7,8 @@
     <ProjectGuid>{033ABEF1-4D20-4429-A832-49E7A43A6D01}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>HS.Logging</RootNamespace>
-    <AssemblyName>HS.Logging</AssemblyName>
+    <RootNamespace>HSLogging</RootNamespace>
+    <AssemblyName>HSLogging</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

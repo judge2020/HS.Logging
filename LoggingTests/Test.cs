@@ -2,7 +2,7 @@
 using System.Diagnostics;
 using System.IO;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using HS.Logging; 
+using HSLogging; 
 
 namespace LoggingTests
 {

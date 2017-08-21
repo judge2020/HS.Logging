@@ -1,5 +1,6 @@
 # HS.Logging
 
+[![Build status](https://ci.appveyor.com/api/projects/status/2u93w8i162l1sdjp/branch/master?svg=true)](https://ci.appveyor.com/project/judge2020/hs-logging-my17g/branch/master) 
 [![NuGet](https://img.shields.io/nuget/v/HS.Logging.svg)](https://www.nuget.org/packages/HS.Logging/)
 
 Easy logging for C# in the form of a NUGET package. Code credit to HDT/HearthSim.
